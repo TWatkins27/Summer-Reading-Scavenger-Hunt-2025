@@ -18,14 +18,14 @@ function checkAnswer1() {
   let answerInput = document.getElementById("Answer1");
   
   // Define a listener as a named function (so you can remove it later if needed).
-  message = "The first clue is \"You\'re here at the library so you probably LOVE books. If you\'re looking for the answer to this clue look no further than LOVE\"";
+  message = "The first clue is \"Bold and bright, find me where the PLAYERS fight\"";
   function listener(event) {
     if (event.key === 'Enter') {
       console.log("Enter key pressed");
       let input = answerInput.value;
       if (input.includes(answerToCheck)) {
         // Display the correct answer text on the canvas.
-       message = "That is the correct answer!  The next clue is \"To find this answer, look by 1 2 3 A B C\"";
+       message = "That is the correct answer!  The next clue is \"This summer you might vacation in the sunshine state - where this fruit is common. Travel to 917.59 to find the answer.\"";
 
         if (listener) {
         answerInput.removeEventListener('keypress', listener);
@@ -52,7 +52,7 @@ function checkAnswer2() {
       let input = answerInput.value;
       if (input.includes(answerToCheck)) {
         // Display the correct answer text on the canvas.
-        message = "That is the correct answer!  The next clue is \"Y is for Yellow and that\'s where you\'ll find it\"";
+        message = "That is the correct answer!  The next clue is \"From Alaska to Nebraska to Chigaco to Santiago you will find Yellow.\"";
 
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
@@ -82,7 +82,7 @@ function checkAnswer3() {
       
       if (input.includes(answerToCheck)) {
         // Display the correct answer text on the canvas.
-        message = "That is the correct answer!  The next clue is \"In summer the world is green - let\'s keep it that way. Look for this answer where you might learn about protecting our planet\"";
+        message = "That is the correct answer!  The next clue is \"There\'s a bunch of splatters in the library, below the green is where you will find me.\"";
 
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
@@ -112,7 +112,7 @@ function checkAnswer4() {
       
       if (input.includes(answerToCheck)) {
         // Display the correct answer text on the canvas.
-         message = "That is the correct answer!  The next clue is \"Like the best boy detectives, you also look for clues\"";
+         message = "That is the correct answer!  The next clue is \"In between the cushions of our comfy couch is where you will find me.\"";
 
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
@@ -142,7 +142,7 @@ function checkAnswer5() {
       
       if (input.includes(answerToCheck)) {
         // Display the correct answer text on the canvas.
-       message = "That is the correct answer!  The next clue is \"This clue\'s location will puzzle you.\"";
+       message = "That is the correct answer!  The next clue is \"Par, jar, lar, next to the star is where you will find me.\"";
 
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
