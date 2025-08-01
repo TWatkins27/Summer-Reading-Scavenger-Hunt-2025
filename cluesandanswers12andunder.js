@@ -92,8 +92,8 @@ function checkAnswer3() {
 
         checkAnswer4();
       } else {
-        
         message = "That is not the correct answer";
+        checkAnswer3();
       }
     }
   };
@@ -122,8 +122,8 @@ function checkAnswer4() {
 
         checkAnswer5();
       } else {
-        
         message = "That is not the correct answer";
+        checkAnswer4();
       }
     }
   };
@@ -152,8 +152,8 @@ function checkAnswer5() {
 
         checkAnswer6();
       } else {
-        
         message = "That is not the correct answer";
+        checkAnswer5();
       }
     }
   };
@@ -181,8 +181,8 @@ function checkAnswer6() {
         }
 
       } else {
-        
         message = "That is not the correct answer";
+        checkAnswer6();
       }
     }
   };
