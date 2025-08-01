@@ -178,6 +178,7 @@ function checkAnswer6() {
 
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
+        message = "That is the correct answer."
         }
 
       } else {
