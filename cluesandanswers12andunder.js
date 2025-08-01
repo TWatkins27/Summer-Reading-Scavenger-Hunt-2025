@@ -62,8 +62,8 @@ function checkAnswer2() {
 
         checkAnswer3();
       } else {
-        
         message = "That is not the correct answer";
+        checkAnswer2();
       }
     }
   };
