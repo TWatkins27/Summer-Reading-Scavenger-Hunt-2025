@@ -52,7 +52,7 @@ function checkAnswer2() {
       let input = answerInput.value;
       if (input.includes(answerToCheck)) {
         // Display the correct answer text on the canvas.
-        message = "That is the correct answer!  The next clue is \"From Alaska to Nebraska to Chigaco to Santiago you will find Yellow.\"";
+        message = "That is the correct answer!  The next clue is \"From Alaska to Nebraska to Chicago to Santiago you will find Yellow.\"";
 
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
