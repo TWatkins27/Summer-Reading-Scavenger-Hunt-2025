@@ -33,10 +33,12 @@ function checkAnswer1() {
         checkAnswer2();
       } else {
         message = "That is not the correct answer";
+        checkAnswer1();
       }
     }
   };
   answerInput.addEventListener('keypress', listener)
+  
 }
 function checkAnswer2() {
   let answerToCheck = "clue";
