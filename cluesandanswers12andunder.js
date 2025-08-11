@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next"
 let message = ""; // Declare globally
 let listener = null;
 function setup() {
