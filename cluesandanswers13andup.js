@@ -177,7 +177,7 @@ function checkAnswer6() {
                 if (listener) {
         answerInput.removeEventListener('keypress', listener);
         }
-
+        message = "You have found all the words, now use the clue to find the rainbow case."
       } else {
         
         message = "That is not the correct answer";
